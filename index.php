@@ -10,7 +10,6 @@
         <link rel="stylesheet" href="css-puro/style.css">
         <script src="script/script.js"></script>
     </head>
-    
     <body class="accordion-body align">
         <div class="flex-container"> 
        <div class="flex-card">
