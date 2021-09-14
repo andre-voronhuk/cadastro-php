@@ -12,23 +12,14 @@
     </head>
     
     <body class="accordion-body align">
-        <div class="flex-container">
-        
-
-           
+        <div class="flex-container"> 
        <div class="flex-card">
        <fieldset class="field-title">
                 <legend class="text-primary ">Cadastro</legend>
-                <form class="form-horizontal" id="form"   onsubmit="return false" method="POST">
-                    
-                   
-          
-
-            <div class="container-fluid">
-        
+                <form class="form-horizontal" id="form"   onsubmit="return false" method="POST">                
+            <div class="container-fluid">       
                  <div class="modal-body">
-                    <div class="control-group">
-                    
+                    <div class="control-group">                
                         <div class="form-floating">
                             <input type="text" class="input-medium" placeholder="Nome" name="name" id="user_id" required value=""><br>
                             <input type="text" class="input-medium" placeholder="Sobrenome" name="lastname" required id="lastname_id"><br>
@@ -37,14 +28,11 @@
                                     <option value="1" >Feminino</option>
                                     <option value="2" >Outro</option>
                             </select>
-                        </div>
-                        
-                 
+                        </div>   
                         <div class="controls">
                             <br>
                             <button id="btn-enviar" class="btn flex-btn  btn-outline-primary btn btn" onclick="validar()" value="Enviar" >Enviar</button>
                         </div>
-                       
                     </div>
                     </fieldset>
                 </div>        
